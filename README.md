@@ -8,5 +8,5 @@ clone this repo into ${HOME}/.vimfiles, then:
     ln -s ${HOME}/.vimfiles ${HOME}/.vim
     ln -s ${HOME}/.vimfiles/vimrc ${HOME}/.vimrc
     cd ${HOME}/.vimfiles/bundle
-    for i in `cat bundle-locations `; do git clone $i; done
+    for i in `cat ../bundle-locations `; do git clone $i; done
 
