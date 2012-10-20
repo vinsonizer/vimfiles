@@ -12,6 +12,9 @@ colorscheme elflord
 call pathogen#infect()
 call pathogen#helptags()
 
+" enable buffer swap choice when F5 is pressed
+nnoremap <F5> :buffers<CR>:buffer<Space>
+
 au BufRead,BufNewFile *.scala set filetype=scala
 au! Syntax scala source ~/.vim/syntax/scala.vim
 
