@@ -6,6 +6,7 @@ set number
 map <C-c> "+y<CR>
 
 set clipboard=unnamed
+set mouse=a
 
 colorscheme elflord
 
@@ -44,3 +45,10 @@ set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\ [%l/%L\ (%p%%)]
 " toggle nerdtree view
 map <C-d> :NERDTreeToggle <CR>
 
+
+" attempt at omni-complete
+filetype plugin on
+set ofu=syntaxcomplete#Complete
+
+" fold support
+let g:vimsyn_folding='af'
