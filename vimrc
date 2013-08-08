@@ -8,7 +8,7 @@ map <C-c> "+y<CR>
 set clipboard=unnamed
 set mouse=a
 
-colorscheme delek
+colorscheme ron
 
 call pathogen#infect()
 call pathogen#helptags()
