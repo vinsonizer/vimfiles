@@ -8,7 +8,7 @@ map <C-c> "+y<CR>
 set clipboard=unnamed
 set mouse=a
 
-colorscheme elflord
+colorscheme delek
 
 call pathogen#infect()
 call pathogen#helptags()
@@ -16,8 +16,8 @@ call pathogen#helptags()
 " enable buffer swap choice when F5 is pressed
 nnoremap <F5> :buffers<CR>:buffer<Space>
 
-"au BufRead,BufNewFile *.scala set filetype=scala
-"au! Syntax scala source ~/.vim/syntax/scala.vim
+" au BufRead,BufNewFile *.scala set filetype=scala
+" au! Syntax scala source ~/.vim/syntax/scala.vim
 
 " from  http://www.jonlee.ca/hacking-vim-the-ultimate-vimrc/
 
@@ -27,6 +27,7 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set autoindent
+set si
 
 " visual bell
 set vb
